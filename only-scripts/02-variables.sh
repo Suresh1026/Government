@@ -1,6 +1,9 @@
 #!/bin/bash
 
-echo Ramesh: Hi Suresh
-echo Suresh: Hi Ramesh
-echo Ramesh: How are you suresh
-echo Suresh: I am doing good Ramesh
+
+PERSON1=Ramesh
+PERSON2=Suresh
+echo $PERSON1: Hi $PERSON2
+echo $PERSON2: Hi $PERSON1
+echo $PERSON1: How are you $PERSON2
+echo $PERSON2: I am doing good $PERSON1

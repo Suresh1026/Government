@@ -2,7 +2,7 @@
 
 id=$(id -u)
 VALIDATE(){
-    if [ $ID -ne 0]
+    if [ $ID -ne 0 ]
     then 
         echo "error: install is failled"
         exit 1

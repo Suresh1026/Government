@@ -2,5 +2,5 @@
 
 PERSON=$1
 
-echo "Hello $PERSON, good morning."
+echo "Hello $1, good morning."
 
